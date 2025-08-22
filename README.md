@@ -14,20 +14,38 @@ HRMS safe software designed for the government sector with an offline-first appr
 ---
 
 ## 🚀 Getting Started
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 ### Prerequisites
-- Python >= 3.x (if applicable)
-- Any required libraries (see `requirements.txt` if provided)
+- Node.js >= 14.x
+- npm >= 6.x
 
 ### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AnshumaanVishnu/alara-hrms.git
+   ```
+2. Navigate into the folder:
+   ```bash
+   cd alara-hrms
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+To run the app in development mode, use:
 ```bash
-# Clone the repository
-git clone https://github.com/AnshumaanVishnu/alara-hrms.git
+npm start
+```
+This will open the application in your browser at [http://localhost:3000](http://localhost:3000).
 
-# Navigate into the folder
-cd alara-hrms
+The page will reload if you make edits. You will also see any lint errors in the console.
 
-# (Optional) Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python main.py
+### Building for Production
+To create a production build, use:
+```bash
+npm run build
+```
+This will build the app for production to the `build` folder. It correctly bundles React in production mode and optimizes the build for the best performance.
